@@ -1,0 +1,157 @@
+body{
+  background-color: #34465c;
+}
+.NavBar{
+  height:50px;
+  width: 100%;
+  background-color: blueviolet;
+  display: flex;
+  color:white;
+  justify-content: space-between;
+  padding:0 20px;
+  box-sizing: border-box;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 250px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  padding:5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.creator {
+  color: grey;
+  font-size: 15px;
+  margin:5px;
+  font-weight: bold;
+}
+.recipename{
+  color:wheat;
+  margin: 5px 0;
+}
+.carddescription{
+  color:lightcoral;
+  margin: 5px 0;
+}
+
+/* form */
+form {   
+  border: 3px solid #f1f1f1; 
+  width:400px  
+}   
+
+input[type=text], input[type=password] {   
+  width: 100%;   
+  margin: 8px 0;  
+  padding: 12px 20px;   
+  display: inline-block;   
+  border: 2px solid green;   
+  box-sizing: border-box;   
+}  
+button:hover {   
+  opacity: 0.7;   
+}   
+
+.container {   
+  padding: 25px;   
+  background-color: lightblue;  
+}   
+
+button {   
+  background-color: #4CAF50;   
+  width: 100%;  
+   color: white;   
+   font-weight: bolder;
+   padding: 15px;   
+   margin: 10px 0px;   
+   border: none;   
+   cursor: pointer;   
+  }
+  
+  
+.logout {
+  cursor: pointer;
+  background: #e74c3c;
+  color: #fff;
+  height: 31px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.logout:hover {
+  background: #c0392b;
+}
+
+.logout:active {
+  background: #c0392b;
+  top: 2px;
+}
+
+.logout:before {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  line-height: 3;
+  font-size: 140%;
+  width: 60px;
+}
+
+.list{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  border:1px solid lightcoral;;
+  border-radius: 7px;
+  margin-top: 20px;
+}
+
+.list h3{
+  margin:0;
+  margin-top: 5px;
+}
+.list li{
+  text-align: left;
+}
+
+.process{
+  color:wheat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  margin-top: 20px;
+}
+.process h3{
+  margin:0;
+  margin-top: 5px;
+}
+.process li{
+  text-align: left;
+}
+
+.details_container{
+  height: 90vh;
+  width: 95vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card2{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  padding:5px;
+}
